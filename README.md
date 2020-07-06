@@ -48,7 +48,7 @@ docker build --build-arg LANG_CODE=pt -t anton:v1 .
 docker container run -e LANG_CODE=pt --rm -it -p 5000:5000 anton:v1
 ```
 
-Notice that `LANG_CODE` needs to be provided with you use it during the built image.
+Notice that, if `LANG_CODE` was specified as a `build-arg` when building the Docker image, it should also be provided as an environment variable when launching a container. Also, make sure the language codes match.
 
 - Sample request:
 
