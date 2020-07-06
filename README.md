@@ -16,11 +16,18 @@ Feel free to use the main idea of this project and adapt it for your own purpose
 
 ```csv
 label,text
-tec,tv future in the hands of viewers with home th...
-business,worldcom boss left books alone former worldc...
-sport,tigers wary of farrell gamble leicester say ...
-sport,yeading face newcastle in fa cup premiership s...
-entertainment, ocean s twelve raids box office ocean s twelve...
+reparar-linha,eu quero saber porque eu não consigo ligar completar ligação
+reparar-linha,verificar linha com defeito
+comprar-linha,de uma nova linha
+comprar-linha,quero ter uma linha econômica produto
+pagar-conta,pagamento de dívida
+pagar-conta,como pagar a minha conta
+cancelar-conta,cancelar a conta a linha
+cancelar-conta,é cancelamento de uma conta
+mudar-endereco,gostaria de transferir minha linha mudança de endereço
+mudar-endereco,gostaria de alterar o proprietário fazer a transferência sem alterar o endereço
+cancelar-servicos,retirar a secretária eletrônica
+vago-visitaTecnica,quero reagendar a visita internet
 ...
 ```
 
