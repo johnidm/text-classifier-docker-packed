@@ -58,7 +58,7 @@ curl -i -X POST \
    -d \
 '{
   "threshold": 0.4,
-  "text": "souness delight at euro..."
+  "text": "quero saber sobre como faço para estarem consertando a linha telefônica da minha casa"
 }
   ' \
  'http://0.0.0.0:5000/'

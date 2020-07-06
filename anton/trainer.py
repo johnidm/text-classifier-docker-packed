@@ -14,9 +14,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 
 def train():
-    file_url = f"https://drive.google.com/uc?id=1FkpQy2uvJ3auRwytPhPtQQYILq5JqlpW"
-    df = pd.read_csv(file_url)
-    # df = pd.read_csv(config.DATASET_FILE)
+    df = pd.read_csv(config.DATASET_FILE)
     
     X, y = df.text, df.label
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
